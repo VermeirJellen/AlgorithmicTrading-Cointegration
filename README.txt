@@ -11,10 +11,10 @@ Entrance point to the project is "demo.R" and the functionality is well document
 - We obtain the optimal VAR lag length by searching for the VAR model that fits the timeseries data in the portfolio optimally, based upon the SC criterion.
 - We use this lag length to launch a Johansen Cointegration procedure test on the portfolio
 - We use the trace statistic to determine the cointegration properties of the portfolio
-- Some additional properties such as the half life of mean reversion are further determined for the cointegrating portfolio's
-5) For this partcular demo run we determine that for 16 out of the 91 tested portfolio's, the null hypothesis of no cointegrating vectors is rejected with more than 90% confidence.
-6) For these particular portfolio's we use the "optimal" cointegrating vectors with highest eigenvalues and we use the relevant vectorvalues as our hedge ratio's.
-7) We use the hedge ratio's to create spreads for these cointegrating portfolio's and output some graphs for illustration purposes (line 75)
+- Some additional properties such as the half life of mean reversion are further determined for the cointegrating portfolios
+5) For this partcular demo run we determine that for 16 out of the 91 tested portfolios, the null hypothesis of no cointegrating vectors is rejected with more than 90% confidence.
+6) For these particular portfolios we use the "optimal" cointegrating vectors with highest eigenvalues and we use the relevant vectorvalues as our hedge ratio's.
+7) We use the hedge ratio's to create spreads for these cointegrating portfolios and output some graphs for illustration purposes (line 75)
 8) We execute a simple mean reversion strategy on the cointegrating spread and output the results for Portfolio(AUDUSD/CADUSD) (Line 82)
 9) We execute a simple mean reversion strategy on the cointegrating spread and output the results for Portfolio(AUDUSD/CADUSD/NZDUSD/JPYUSD/ (Line 92). We note that the latter portfolio has stronger cointegrating properties and a lower half life of mean reversion. As expected, The results -as expressed by the Sharpe ratio- for this portfolio are better (Transaction costs / bid-ask spreads are included in the analysis).
 
