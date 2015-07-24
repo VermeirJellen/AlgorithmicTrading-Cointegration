@@ -1,7 +1,6 @@
 Proof of concept: In sample cointegration-based statistical arbitrage trading strategy.
 
-For a short overview on the relevant statistical methods, view "Cointegration-Based spread trading applied to the foreign exchange market.pdf", Chapters 1-3. 
-View chapter Chapter 4, starting on page 6 for a quick overview on the implemented trading strategy.
+View the paper "Cointegration-Based spread trading applied to the foreign exchange market.pdf" inside the ./paper directory for more information on the strategy.
 
 Entrance point to the project is "demo.R" and the functionality is well documented inside the code. The script executes the following functionality in order:
 1) A portfolio containing currency pair objects is created from the .csv files which are provided in the ./data directory. It should be noted that all relevant timeseries are recreated in such a way that the USD currency pair becomes the quoted pair, for consistency reasons.
