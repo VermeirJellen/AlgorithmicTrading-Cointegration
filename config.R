@@ -1,6 +1,6 @@
 # if(!require(installr)) {install.packages("installr"); require(installr)}
 # updateR()
-# packages = c("forecast","tseries","urca","vars","xts,","PerformanceAnalytics")
+# packages = c("forecast","tseries","urca","vars","xts","PerformanceAnalytics")
 # install.packages(packages)
 
 library(forecast)
